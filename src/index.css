@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(56, 56, 56);
+}
+h5{
+    font-size: clamp(25px,3vw,35px);
+    text-align: center;
+}
+p{
+    font-size: clamp(12px,2vw,16px);
+}
+img{
+    float: left;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.card{
+    color: rgb(207, 207, 207);
+    background-color: rgb(41, 40, 40);
+}
+.card-body{
+    background-color: rgb(5, 54, 54);
+
+}
+.card-footer{
+    border-top: 1px solid rgb(80, 80, 80);
+    background-color: rgb(56, 56, 56);
+}
+.text-body-secondary .card-footer{
+    color: rgb(255, 255, 255);
+}
+footer{
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    color: aliceblue;
+    
+}
+/*Small devices (landscape phones 576px and up)*/
+@media (min-width: 576px) { 
+    img{
+        float: left;
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-group{
+        display:grid;
+        grid-template-columns: auto auto ;
+    }
+    .card-group .card{
+        padding: 1vw;
+        width: 50vw;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    img{
+        float: left;
+        width: 33.33vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-group{
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+    .card-group .card{
+        padding: 1vw;
+        width: 33.3vw;
+    }
+  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    img{
+        float: left;
+        width: 25vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-group{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .card-group .card{
+        padding: 1vw;
+        width: 25vw;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    img{
+        float: left;
+        width: 20vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-group{
+        display:grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .card-group .card{
+        width: 20vw;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    img{
+        float: left;
+        width: 16.66vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-group{
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .card-group .card{
+        padding: 1vw;
+        width:16.6vw;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PrimeVideo/static/css/main.e9c67d51.css",
+    "main.js": "/PrimeVideo/static/js/main.967135b3.js",
+    "static/js/453.b9b4a01c.chunk.js": "/PrimeVideo/static/js/453.b9b4a01c.chunk.js",
+    "static/media/one-piece.jpg": "/PrimeVideo/static/media/one-piece.42b4f79103ebb3ad9d34.jpg",
+    "static/media/solo-leveling.jpg": "/PrimeVideo/static/media/solo-leveling.baf4bf233de80ef6b95d.jpg",
+    "static/media/naruto.jpg": "/PrimeVideo/static/media/naruto.9d18c3771c89d49f072b.jpg",
+    "static/media/godfather.jpg": "/PrimeVideo/static/media/godfather.f69d1c4f4945c6c2bfd2.jpg",
+    "index.html": "/PrimeVideo/index.html",
+    "main.e9c67d51.css.map": "/PrimeVideo/static/css/main.e9c67d51.css.map",
+    "main.967135b3.js.map": "/PrimeVideo/static/js/main.967135b3.js.map",
+    "453.b9b4a01c.chunk.js.map": "/PrimeVideo/static/js/453.b9b4a01c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9c67d51.css",
+    "static/js/main.967135b3.js"
+  ]
+}

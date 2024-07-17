@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/PrimeVideo/static/css/main.2338c5e3.css",
-    "main.js": "/PrimeVideo/static/js/main.e875e6bd.js",
+    "main.css": "/PrimeVideo/static/css/main.57dddad5.css",
+    "main.js": "/PrimeVideo/static/js/main.5911120a.js",
     "static/js/453.c9e90b77.chunk.js": "/PrimeVideo/static/js/453.c9e90b77.chunk.js",
     "static/media/one-piece.jpg": "/PrimeVideo/static/media/one-piece.42b4f79103ebb3ad9d34.jpg",
     "static/media/solo-leveling.jpg": "/PrimeVideo/static/media/solo-leveling.baf4bf233de80ef6b95d.jpg",
     "static/media/naruto.jpg": "/PrimeVideo/static/media/naruto.9d18c3771c89d49f072b.jpg",
+    "static/media/JusticeLeagueCrisisOnINfiniteEarthP3.jpg": "/PrimeVideo/static/media/JusticeLeagueCrisisOnINfiniteEarthP3.03e1a35a26a55ad1fd6b.jpg",
+    "static/media/Smurfs_TheLostVillage.jpg": "/PrimeVideo/static/media/Smurfs_TheLostVillage.69f0020781ac0074e777.jpg",
+    "static/media/Oppenheimer.jpg": "/PrimeVideo/static/media/Oppenheimer.d05365d987080a2d0426.jpg",
+    "static/media/WoodyWoodpecker.jpg": "/PrimeVideo/static/media/WoodyWoodpecker.60977ded4e5f3ae637dd.jpg",
+    "static/media/TheEmojiMovie.jpg": "/PrimeVideo/static/media/TheEmojiMovie.33f038a139793f74cd62.jpg",
+    "static/media/Transformers_RiseofTheBeasts.jpg": "/PrimeVideo/static/media/Transformers_RiseofTheBeasts.8fe05b158736e76abccd.jpg",
+    "static/media/Cars3.jpg": "/PrimeVideo/static/media/Cars3.2c35c3ae8f0686a119c5.jpg",
+    "static/media/CaptainUnderpants_TheFirstEpicMovie.jpg": "/PrimeVideo/static/media/CaptainUnderpants_TheFirstEpicMovie.cca664bb9d9fdaf9cb0b.jpg",
+    "static/media/DespicableMe3.jpg": "/PrimeVideo/static/media/DespicableMe3.371b51e9421e7447a641.jpg",
+    "static/media/TheFlash.jpg": "/PrimeVideo/static/media/TheFlash.75b5853b2b640002b492.jpg",
     "static/media/interstellar.jpg": "/PrimeVideo/static/media/interstellar.7c5a22ee8ff8584a8596.jpg",
     "static/media/despicableMe.jpg": "/PrimeVideo/static/media/despicableMe.d6374bdc674b060a0de9.jpg",
     "static/media/godfather.jpg": "/PrimeVideo/static/media/godfather.f69d1c4f4945c6c2bfd2.jpg",
+    "static/media/TheBossBaby.jpg": "/PrimeVideo/static/media/TheBossBaby.0a12de88b30b84fd6538.jpg",
     "index.html": "/PrimeVideo/index.html",
-    "main.2338c5e3.css.map": "/PrimeVideo/static/css/main.2338c5e3.css.map",
-    "main.e875e6bd.js.map": "/PrimeVideo/static/js/main.e875e6bd.js.map",
+    "main.57dddad5.css.map": "/PrimeVideo/static/css/main.57dddad5.css.map",
+    "main.5911120a.js.map": "/PrimeVideo/static/js/main.5911120a.js.map",
     "453.c9e90b77.chunk.js.map": "/PrimeVideo/static/js/453.c9e90b77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2338c5e3.css",
-    "static/js/main.e875e6bd.js"
+    "static/css/main.57dddad5.css",
+    "static/js/main.5911120a.js"
   ]
 }

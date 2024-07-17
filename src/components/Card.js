@@ -1,57 +1,9 @@
 import React from "react";
 import profile from "../Images/Profile.jpg";
-import intersteller from "../Images/cover-images/interstellar.jpg"
-import naruto from "../Images/cover-images/naruto.jpg";
-import onePiece from "../Images/cover-images/one-piece.jpg";
-import soloLeveling from "../Images/cover-images/solo-leveling.jpg";
-import godFather from "../Images/cover-images/godfather.jpg";
-import despicableMe from "../Images/cover-images/despicableMe.jpg"
 
+import movies from "./movie";
 const Card = () => {
-  const movies = [
-    {
-      id: 0,
-      name: "Naruto",
-      category: "anime",
-      Rating: 9.8,
-      coverPhoto: naruto,
-    },
-    {
-      id: 1,
-      name: "One-piece",
-      category: "anime",
-      Rating: 9.9,
-      coverPhoto: onePiece,
-    },
-    {
-      id: 2,
-      name: "Solo leveling",
-      category: "anime",
-      Rating: 9.5,
-      coverPhoto: soloLeveling,
-    },
-    {
-      id: 3,
-      name: "The Godfather",
-      category: "Drama",
-      Rating: 9.2,
-      coverPhoto: godFather,
-    },
-    {
-      id:4,
-      name:"Intersteller",
-      category:"science fiction",
-      Rating:8.7,
-      coverPhoto: intersteller
-    },
-    {
-      id:5,
-      name:"Despicable Me 4",
-      category:"Anime",
-      Rating:7.2,
-      coverPhoto:despicableMe
-    }
-  ];
+  
   return (
     <div className="container">
       <div className="row">

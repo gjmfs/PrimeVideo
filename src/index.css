@@ -81,8 +81,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
   }
-  .card-group .card {
-  }
+ 
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -97,8 +96,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
   }
-  .card-group .card {
-  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -113,8 +111,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
   }
-  .card-group .card {
-  }
+
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
@@ -129,8 +126,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
   }
-  .card-group .card {
-  }
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
@@ -145,6 +141,5 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
   }
-  .card-group .card {
-  }
+
 }

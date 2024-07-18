@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/PrimeVideo">
             Prime video
           </NavLink>
           <button
@@ -23,7 +23,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to='/'>
+                <NavLink className="nav-link" aria-current="page" to='/PrimeVideo'>
                   Home
                 </NavLink>
               </li>
@@ -94,19 +94,19 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" href="historical">
+                    <NavLink className="dropdown-item" to="historical">
                       Historical
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="my-stuff">
+                <NavLink className="nav-link" to="my-stuff">
                   My Stuff 
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="kids">
+                <NavLink className="nav-link" to="kids">
                   Kids
                 </NavLink>
               </li>

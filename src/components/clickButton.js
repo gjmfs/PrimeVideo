@@ -1,10 +1,11 @@
 import movie from "./movie";
 export class clickButton {
-  constructor(value) {
-      this.value = movie[value];
+  constructor(id) {
+      this.id = movie[id].id;
+      console.log(this.id)
   }
 
   getValue() {
-      return this.value;
+      return this.id;
   }
 }

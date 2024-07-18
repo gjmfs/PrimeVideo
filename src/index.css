@@ -68,6 +68,19 @@ footer {
   bottom: 0;
   color: aliceblue;
 }
+.carousel{
+  height: 42vh;
+  overflow: hidden;
+}
+.imageSize{
+  height: 40vh;
+  width: 100vw;
+}
+@media (max-width: 576px) {
+  h5{
+    font-size: 12vw;
+  }
+}
 /*Small devices (landscape phones 576px and up)*/
 @media (min-width: 576px) {
   img {

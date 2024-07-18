@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import Popular from "./Popular";
 
-const Content = () => {
+export const Home = () => {
   
   return (
   <main >
+    <Popular/>
     <Card/>
   </main>
 );
 };
 
-export default Content;
+

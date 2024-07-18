@@ -15,14 +15,18 @@ import TheEmojiMovie from "../Images/cover-images/TheEmojiMovie.jpg"
 import TheBossBaby from "../Images/cover-images/TheBossBaby.jpg"
 import DespicableMe3 from "../Images/cover-images/DespicableMe3.jpg"
 import Cars3 from "../Images/cover-images/Cars3.jpg"
+import Tnaruto from "../Images/Thumbnail/naruto.jpg"
+import Tsolo_leveing from "../Images/Thumbnail/solo-Leveling.jpg"
+import Tone_piece from "../Images/Thumbnail/One-piece.jpg"
 
-const movies = [
+const movie = [
     {
       id: 0,
       name: "Naruto",
       category: ["Anime","Action","Adventure","Comedy","Fantasy"],
       Rating: 9.8,
       year:2002,
+      thumbnail:Tnaruto,
       coverPhoto: naruto,
     },
     {
@@ -31,6 +35,7 @@ const movies = [
       category: ["Anime","Action","Adventure","Comedy","Drama","Fantasy"],
       Rating: 9.9,
       year:1999,
+      thumbnail:Tone_piece,
       coverPhoto: onePiece,
     },
     {
@@ -39,6 +44,7 @@ const movies = [
       category: ["Anime","Action","Adventure","Fantasy"],
       Rating: 9.5,
       year:2024,
+      thumbnail:Tsolo_leveing,
       coverPhoto: soloLeveling,
     },
     {
@@ -154,4 +160,4 @@ const movies = [
       coverPhoto:Cars3
     }
   ];
-  export default movies
+  export default movie

@@ -1,13 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="/">
             Prime video
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,24 +23,24 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <NavLink className="nav-link" aria-current="page" to='/'>
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to='free-to-me'>
                   Free to me
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="store">
                   Store
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="channels">
                   Channels
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -53,61 +54,61 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="kids">
                       Kids
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="comedy">
                       Comedy
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="Action-and-adventure">
                       Action and adventure
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="documentary">
                       Documentary
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="horror">
                       Horror
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="drama">
                       Drama
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="anime">
                       Anime
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="sci-fi">
                       Science fiction
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" href="historical">
                       Historical
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" href="my-stuff">
                   My Stuff 
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" href="kids">
                   Kids
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

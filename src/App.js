@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header/>
       <Routes>
-        <Route path='/PrimeVideo' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='/moviePage' element={<MoviePage/>}></Route>
         <Route path='/*' element={<NotFound/>}></Route>
       </Routes>

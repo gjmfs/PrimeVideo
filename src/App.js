@@ -1,20 +1,22 @@
-import { Routes,Route } from 'react-router-dom';
-import { Home } from './components/Home'
-import {MoviePage} from './components/Card'
-import Header from './Header';
-import Footer from './Footer';
-import { NotFound } from './components/NotFound';
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./components/Home";
+import { MoviePage } from "./components/Card";
+import Header from "./NavBar";
+import Footer from "./Footer";
+import { NotFound } from "./components/NotFound";
 function App() {
-  
   return (
     <div>
-      <Header/>
+      <Header />
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/moviePage' element={<MoviePage/>}></Route>
-        <Route path='/*' element={<NotFound/>}></Route>
+        <Route path="/PrimeVideoClone" element={<Home />}></Route>
+        <Route
+          path="/PrimeVideoClone/moviePage"
+          element={<MoviePage />}
+        ></Route>
+        <Route path="/PrimeVideoClone/*" element={<NotFound />}></Route>
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

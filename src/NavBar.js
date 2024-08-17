@@ -1,12 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const NavBar = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <nav
+        className="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/PrimeVideoClone">
             Prime video
           </NavLink>
           <button
@@ -23,12 +26,16 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to='/'>
+                <NavLink
+                  className="nav-link"
+                  aria-current="page"
+                  to="/PrimeVideoClone"
+                >
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to='free-to-me'>
+                <NavLink className="nav-link" to="free-to-me">
                   Free to me
                 </NavLink>
               </li>
@@ -64,7 +71,10 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="Action-and-adventure">
+                    <NavLink
+                      className="dropdown-item"
+                      to="Action-and-adventure"
+                    >
                       Action and adventure
                     </NavLink>
                   </li>
@@ -102,7 +112,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="my-stuff">
-                  My Stuff 
+                  My Stuff
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -118,4 +128,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
